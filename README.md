@@ -1,8 +1,8 @@
 QR test data generator
 ======================
 
-A simple generator of QR codes to be used as test data to check
-the correctness of other implementations.
+A small script that generates QR codes to be used as test data to
+check the correctness of QR codes generators.
 
 
 Installation
@@ -18,7 +18,7 @@ install all the required libraries use Bundler:
 How to generate the test QR codes
 ---------------------------------
 
-If bundle has been used to install the required dependencies,
+If Bundler has been used to install the required dependencies,
 `gen-qr-test-data` can be run with
 
 	bundle exec ./gen-qr-test-data > qr_test_data.rb
