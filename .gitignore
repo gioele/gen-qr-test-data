@@ -1,0 +1,6 @@
+/Gemfile.lock
+
+/.bundle/
+/gems/
+
+/qr_test_data.rb
