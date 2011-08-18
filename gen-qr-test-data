@@ -48,7 +48,7 @@ def gen_test(test)
 
 	$stdout.puts "QR_TEST_DATA << {"
 	$stdout.puts "\t:name => #{test_name.inspect},"
-	$stdout.puts "\t:data_index => #{index.inspect}"
+	$stdout.puts "\t:data_index => #{index.inspect},"
 	$stdout.puts "\t:version => #{version.inspect},"
 	$stdout.puts "\t:correction => #{ec_level.inspect},"
 	$stdout.puts "\t:mode => #{mode.inspect},"
