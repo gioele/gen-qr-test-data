@@ -81,7 +81,7 @@ def pp(matrix)
 		out << ","
 		out << "\n"
 	end
-	out << "]"
+	out << "\t]"
 
 	return out
 end
